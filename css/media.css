@@ -16,24 +16,21 @@
         transform: scale(.7);
     }
     .ban-text {
-        margin-top: 115px;
+        margin-top: 167px;
     }
     .ban-text h1 {
-        font-size: 44px;
-        bottom: 65px;
+        font-size: 24px;
+        bottom: 60px;
     }
     .ban-text h2 {
-        font-size: 32px;
-        line-height: 70px;
+        font-size: 22px;
+        line-height: 24px;
     }
     .ban-text h1::after {
         display: none;
     }
     .btn {
-        font-size: 19px;
-        top: 77%;
-        left: 38%;
-        transform: scale(53%);
+        display: none;
     }
     #about {
         padding-top: 50px;
@@ -63,6 +60,9 @@
         font-size: 22px;
         padding-bottom: 15px;
     }
+    .service-text h4 {
+        font-size: 22px;
+    }
     .service-text h2::after {
         width: 63px;
         height: 1px;
@@ -72,31 +72,35 @@
     }
     .service-content p {
         font-size: 16px;
-        width: 363px;
-        transform: translate(25%);
     }
     .middle-gap {
         margin-top: 4px;
     }
     .comment-icon {
-        margin-left: 201px;
-        
-        border: 1px solid #95e1d3;
+        margin-left: 80px;
     }
     .comment-topic p {
         font-size: 23px;
         text-align: center;
     }
+    .comment-icon i {
+        line-height: 150px;
+        padding: 10px;
+    }
     .comment-topic {
         padding-left: 0px;
     }
     .comment-topic h4 {
-        margin-top: 19px;
-        margin-left: 250px;
+        margin-top: 0px;
+        margin-left: 140px;
     }
     .comment-topic::after {
         height: 1px;
-        left: 180px;
+        left: 70px;
+    }
+    .team-content h3::after {
+        left: 0px;
+        height: 1px;
     }
     .mt-5 {
         margin-top: 35px;
@@ -105,10 +109,7 @@
         margin-top: 60px;
     }
     .team-content h3::after {
-        left: 0;
-        transform: translate(383%);
-        width: 65px;
-        height: 1px;
+        transform: translate(180%);
     }
     .team-content h3 {
         padding-bottom: 13px;
@@ -128,11 +129,11 @@
         padding-bottom: 14px;
     }
     .work-item-text h3::after {
-        left: 45%;
+        left: 40%;
         height: 1px;
     }
     .work-item {
-        transform: translate(0%,200%);
+        transform: translate(0%,90%);
     }
     .work-item-text p {
         font-size: 16px;
@@ -156,9 +157,7 @@
         font-weight: 400;
     }
     .footer-follow-us i {
-        transform: translate(11px,-5px);
-        margin: 0px 12px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .footer-buttons {
         width: 106px;
@@ -201,7 +200,7 @@
     }
     
 }
-@media(min-width:576px)and (max-width:768px){
+@media(min-width:575px)and (max-width:768px){
     .ban-text h1 {
         font-size: 45px;
         bottom: 74px;
